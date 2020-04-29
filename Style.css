@@ -1,0 +1,23 @@
+			.prendido
+			{
+				color: red;
+				border: 3px solid red;
+			}
+			.apagado
+			{
+				color: #444444;
+				border: 3px solid #444444;
+			}
+			.fondo_negro
+			{
+				background-color: black;
+			}
+            .container
+            {
+                background-color: #22FF22;;
+            }
+            .jumbotron
+            {
+                background-color: black; 
+                color: #22FF22 ;
+            }

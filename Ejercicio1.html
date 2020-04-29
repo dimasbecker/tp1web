@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volviendo al ruedo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="Ejercicio1.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css" media="screen" />
+    
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Ejercicio 1</h1>
+            <p>
+                a) En este archivo, modificar el código html y agregar el JavaScript necesario para cambiar el estilo (class) de 
+                los recuadros “MODO 1” y “MODO 2” de manera que haciendo clic sobre un recuadro lo ponga en “prendido” 
+                y al otro recuadro en “apagado”. No pueden estar ambos prendidos ni ambos apagados simultáneamente.
+            </p>
+            <p>
+                b) Incorporar un MODO 3 y expandir la funcionalidad.
+            </p>
+            <p>
+                c) Con 3 modos, implementar que cada modo pueda prenderse y apagarse independientemente del estado de los otros, 
+                es decir, que puedan prenderse varios modos simultáneamente.
+            </p>
+        </div>
+
+        <div class="row fondo_negro">
+
+            <div class="col-md-3">
+                <h1  class="col-md-12"><span id="boton1" onclick="change(this)" role="button" class="col-md-12 text-center apagado ">MODO 1</span></h1>
+            </div>
+            
+            <div class="col-md-3">
+                <h1  class="col-md-12"><span id="boton2" onclick="change(this)" role="button" class="col-md-12 text-center apagado ">MODO 2</span></h1>
+            </div>
+            
+            <div class="col-md-3">
+                <h1  class="col-md-12"><span id="boton3" onclick="change(this)" role="button" class="col-md-12 text-center apagado ">MODO 3</span></h1>
+            </div>
+
+     
+            <div class="col-md-3">
+                <h1  class="col-md-12"><span id="boton4" onclick="change(this)" role="button" class="col-md-12 text-center apagado ">MODO 4</span></h1>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
